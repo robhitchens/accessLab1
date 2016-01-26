@@ -6,10 +6,7 @@ package io.zipcoder;
 public class Connection {
     private int portNumber;
     private String ipAddress;
-    public Connection(int portNumber, String ipAddress){//refactor
-        this.portNumber =portNumber;
-        this.ipAddress = ipAddress;
-    }
+
     public void setPorNumber(int num){
         portNumber = num;
     }
